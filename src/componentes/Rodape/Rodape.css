@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #6278F7;
+  color: #FFF;
+  padding: 80px;
+}
+
+.footer .redes-sociais a {
+  margin-right: 32px;
+}
+
+.footer .redes-sociais a:last-child {
+  margin-right: 0;
+}
