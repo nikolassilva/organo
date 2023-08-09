@@ -4,7 +4,7 @@ export const Colaborador = ({ corCabecalho, nome, imagem, cargo, email, telefone
   return (
     <div className='colaborador'>
       <div className='cabecalho' style={{backgroundColor: corCabecalho}}>
-        <img src={imagem} alt={`Imagem de ${nome}`}  />
+        <img src={imagem ? imagem : '/imagens/no-image.png'} alt={`Imagem de ${nome}`}  />
       </div>
       <div className='rodape'>
         <h4>{nome}</h4>
